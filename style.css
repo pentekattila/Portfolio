@@ -39,7 +39,7 @@ h1 {
 }
 
 p {
-  color: text-rgba(38,46,46);
+  color: rgba(38,46,46);
 }
 
 .lead {
@@ -97,3 +97,6 @@ color: white;
 font-family: "Cormorant Garamond", serif;
 }
 
+#logo {
+  margin-top: 90px;
+}
