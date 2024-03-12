@@ -66,11 +66,6 @@ h3 {
   text-align: center;
 }
 
-@media (max-width: 768px) {
-  [class="col"]
-  width: 100%;
-}
-
 .zene {
   display: flex;
   justify-content: center;
