@@ -1,0 +1,98 @@
+body {
+  background-image: url("./Assets/Image/Forest.jpg");
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.top-container {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  height: 100vh;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  height: 100vh;
+}
+
+.project {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+span {
+  font-family: "Cormorant Garamond", serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Gruppo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 15px;
+}
+
+p {
+  color: text-rgba(38,46,46);
+}
+
+.lead {
+  color: white;
+}
+
+.about h2 {
+  color: white;
+  font-family: "Gruppo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4rem;
+  letter-spacing: 7px;
+}
+
+h3 {
+  text-align: center;
+  font-family: "Gruppo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.project {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  [class="col"]
+  width: 100%;
+}
+
+.zene {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+iframe {
+  padding: 0;
+  margin: 0;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.kapcsolat {
+color: white;
+}
+
