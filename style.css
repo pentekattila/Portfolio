@@ -105,10 +105,11 @@ font-family: "Cormorant Garamond", serif;
   }
 
   body {
-    background-image: url("./Assets/Image/phone-back.png");
+    background-image: url("./Assets/Image/Forest.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover; 
-    background-position: center center;
   }
 
   .about,
@@ -148,10 +149,12 @@ font-family: "Cormorant Garamond", serif;
 
   .about h2 {
     font-size: 3rem !important;
+    letter-spacing: 1px;
   }
 
   .project h2,
   .contact h2 {
     font-size: 3rem !important; 
+    letter-spacing: 1px;
   }
 }
