@@ -36,6 +36,7 @@ h1 {
   font-weight: 400;
   font-style: normal;
   letter-spacing: 15px;
+  font-size: 11rem;
 }
 
 p {
@@ -94,4 +95,63 @@ font-family: "Cormorant Garamond", serif;
 
 #logo {
   margin-top: 90px;
+}
+
+@media (max-width: 767px) {
+  .top-container {
+    height: auto;
+    padding-top: 50px; 
+    padding-bottom: 50px; 
+  }
+
+  body {
+    background-image: url("./Assets/Image/Forest.jpg");
+    object-fit: cover;
+    background-attachment: fixed;
+    background-size: 160% 100%;
+  }
+
+  .about,
+  .project,
+  .zene,
+  .contact {
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .about .row {
+    display: flex; /* Use flexbox for the row */
+    justify-content: center; /* Center the items horizontally */
+    align-items: center; /* Center the items vertically */
+  }
+
+  .about .col-10 {
+    width: 100%; /* Ensure the column takes full width */
+  }
+
+  #logo {
+    margin-top: 30px; 
+  }
+
+  h1 {
+    font-size: 5rem !important; 
+  }
+
+  .display-1 {
+    font-size: 6rem; 
+  }
+
+  .lead {
+    font-size: 1.2rem; 
+  }
+
+  .about h2 {
+    font-size: 3rem !important;
+  }
+
+  .project h2,
+  .contact h2 {
+    font-size: 3rem !important; 
+  }
 }
