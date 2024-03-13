@@ -99,16 +99,16 @@ font-family: "Cormorant Garamond", serif;
 
 @media (max-width: 767px) {
   .top-container {
-    height: auto;
+    height: 100vh;
     padding-top: 50px; 
     padding-bottom: 50px; 
   }
 
   body {
-    background-image: url("./Assets/Image/Forest.jpg");
+    background-image: url("./Assets/Image/phone\ back.png");
     object-fit: cover;
     background-attachment: fixed;
-    background-size: 160% 100%;
+    background-size: 100% 100%;
   }
 
   .about,
@@ -121,13 +121,13 @@ font-family: "Cormorant Garamond", serif;
   }
 
   .about .row {
-    display: flex; /* Use flexbox for the row */
-    justify-content: center; /* Center the items horizontally */
-    align-items: center; /* Center the items vertically */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
   }
 
   .about .col-10 {
-    width: 100%; /* Ensure the column takes full width */
+    width: 100%; 
   }
 
   #logo {
