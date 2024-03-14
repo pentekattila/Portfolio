@@ -88,6 +88,14 @@ iframe {
   height: 100vh;
 }
 
+footer p{
+  color: white;
+}
+
+.mesa {
+  color: white;
+}
+
 .kapcsolat {
 color: white;
 font-family: "Cormorant Garamond", serif;
@@ -105,7 +113,7 @@ font-family: "Cormorant Garamond", serif;
   }
 
   body {
-    background-image: url("./Assets/Image/phone-back.png");
+    background-image: url("./Assets/Image/vegso.png");
     max-width: 100%; 
     max-height: 300px; 
     display: block; 
@@ -150,6 +158,10 @@ font-family: "Cormorant Garamond", serif;
   .about h2 {
     font-size: 3rem !important;
     letter-spacing: 1px;
+  }
+
+  .box {
+    color: rgba(38,46,46);
   }
 
   .project h2,
