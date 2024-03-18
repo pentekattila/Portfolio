@@ -25,6 +25,13 @@ body {
   height: 100vh;
 }
 
+.donate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 span {
   font-family: "Cormorant Garamond", serif;
   margin: 0;
@@ -101,6 +108,15 @@ color: white;
 font-family: "Cormorant Garamond", serif;
 }
 
+.donate h3 {
+  text-align: center;
+  font-family: "Gruppo", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 2rem;
+  letter-spacing: 5px;
+}
+
 #logo {
   margin-top: 90px;
 }
@@ -123,7 +139,8 @@ font-family: "Cormorant Garamond", serif;
   .about,
   .project,
   .zene,
-  .contact {
+  .contact,
+  .donate {
     height: auto;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -168,10 +185,5 @@ font-family: "Cormorant Garamond", serif;
   .contact h2 {
     font-size: 3rem !important; 
     letter-spacing: 1px;
-  }
-
-  .phone-nr {
-    text-decoration: none;
-    color: black;
   }
 }
