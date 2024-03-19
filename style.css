@@ -99,6 +99,13 @@ footer p{
   color: white;
 }
 
+.donate-text {
+  font-family: "Gruppo", sans-serif;
+  font-weight: bold;
+  font-size: 3.5rem;
+  letter-spacing: 5px;
+}
+
 .mesa {
   color: white;
 }
@@ -106,15 +113,6 @@ footer p{
 .kapcsolat {
 color: white;
 font-family: "Cormorant Garamond", serif;
-}
-
-.donate h3 {
-  text-align: center;
-  font-family: "Gruppo", sans-serif;
-  font-weight: bold;
-  font-style: normal;
-  font-size: 2rem;
-  letter-spacing: 5px;
 }
 
 #logo {
@@ -169,7 +167,7 @@ font-family: "Cormorant Garamond", serif;
   }
 
   .lead {
-    font-size: 1.2rem; 
+    font-size: 1.2rem !important; 
   }
 
   .about h2 {
@@ -179,6 +177,11 @@ font-family: "Cormorant Garamond", serif;
 
   .box {
     color: rgba(38,46,46);
+  }
+
+  .donate-text {
+    font-size: 2.5rem;
+    letter-spacing: 1px;
   }
 
   .project h2,
