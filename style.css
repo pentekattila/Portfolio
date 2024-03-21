@@ -21,8 +21,20 @@ body {
 .project {
   display: flex; 
   justify-content: center;
-  align-items: center;
-  height: 100vh;
+  align-items: flex-start;
+  height: 120vh;
+  position: relative;
+}
+
+.card {
+  position: relative;
+}
+
+.card a {
+  position: absolute; 
+  bottom: 0; 
+  left: 50%; 
+  transform: translateX(-50%); 
 }
 
 .donate {
